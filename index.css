@@ -70,3 +70,46 @@
     font-size: 18px;
     color: white;
 }
+
+.section-tow {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 70px;
+    padding: 50px;
+}
+
+.title2 {
+    text-align: center;
+    font-size: 80px;
+    font-weight: bold;
+    margin-top: 50px;
+}
+
+.card1 {
+    margin-top: 0px;
+    width: 500px;
+    height: 350px;
+    border: 1px solid gray;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 10px 10px 20px gray;
+    font-size: 20px;
+    border-radius: 10px;
+    transition: .9ms;
+}
+
+.card1:hover {
+    border: 2px solid blue;
+    margin-top: -30px;
+    transition: .9ms;
+}
+
+.gym-icon {
+
+    margin-top: 10px;
+    width: 150px;
+}
+
+.gym-icon3 {
+    width: 250px;
+}
